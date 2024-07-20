@@ -1,0 +1,11 @@
+body{background:linear-gradient(rgba(6,72,105,0.849),rgb(3,96,133));}
+
+
+div{
+    font-size: xx-large;
+    padding-top: 200px;
+    padding-left:150px ;
+    width: fit-content;
+    text-align: center;
+}
+p{size: 20px;}

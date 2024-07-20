@@ -1,0 +1,12 @@
+body{background-color: rgba(212, 255, 255, 0.324);
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    align-content: center
+}
+div{ width: fit-content;
+    padding-left:490px;
+    padding-top: 150px;
+
+}

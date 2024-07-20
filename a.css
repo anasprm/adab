@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(rgba(6,72,105,0.849),rgb(3,96,133));
+    width: 100%;
+    
+}
+
+div{width: fit-content;
+    text-align:center ;
+    padding-left:510px ;
+    text-decoration: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+h1{
+    font-size:80px;
+    font-family: serif;
+    align-self: center;
+    text-decoration: rgb(0, 0, 0);
+}
+
+h3{
+    font-size: 28px;
+}

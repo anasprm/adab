@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0;
+     padding:0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+        width: 100%;
+        background-color: rgba(23,23,23,0.15);
+        padding: 20px;
+        position: absolute;
+        top: 0;
+}
+
+header .container{
+        display: flex;
+        justify-content: space-between;
+        width: 1180px;
+        margin: auto;
+
+}
+
+header a{
+        text-decoration: none;
+        margin-right: 100px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: tahoma;
+        color:rgba(255,255,255,0.719);
+        line-height: 15px;
+}
+
+.banner-container{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(6,72,105,0.849),rgb(3,96,133));
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;    
+}
+
+.left-section{
+        width: 600px;
+        align-self: flex-start;
+}
+
+.left-section h1{
+        margin: 0;
+        font-size: 40px;
+        color: white;
+
+}
+
+.left-section p{
+        margin: 0;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: rgba(255,255,255,0.884);
+        margin-top: 18px;
+        line-height: 28px;
+}       
+
+.banner-container .container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+                                         
+        
+}
+
+.left-section button{
+        background-color: white;
+        padding:12px 50px ;
+        margin-top:15px;
+        border-radius: 6px;
+        border: none;
+        color:#2098ca;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+.right-section{ 
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 40px 0px;
+}
+
+.right-section h4{
+        font-size: 20px;
+        margin: auto;
+        color: 136,136,136;
+        width: 300px;
+        margin-bottom: 30px;
+}
+
+.input-group{
+        width: 300;
+        margin: 30px; 
+        display: flex;
+        flex-direction: column;
+}
+
+
+
+.input-group input{
+        border: none;
+        outline: none;
+        padding: 7px;
+        margin-top: 5px;
+        color: #2098ca;
+        border-bottom: 1px solid #c9c9c98a;       
+        
+   
+}
+
+.submit{
+        width: 300px;
+        align-self: center;
+        cursor: pointer;
+        padding: 10px; ;
+        border: none;
+        background-color: #2098ca;
+        color: white;margin-top: 15px;
+        border-radius: 5px;
+}
+
+
+.input-group input:focus ~, ::placeholder
+.input-group input:valid ~ ::placeholder{
+        color: #2098ca;
+        top: 10px;
+        font-size: 12px;
+}
+    
+.input-group input:focus ~ ,
+.input-group input:valid ~ {
+     border-color: #2098ca; 
+        
+}
+
+.submit-section{
+        text-align: center;
+}
+
+.submit-button:hover{box-shadow: 0 3px 6px silver;}
+
